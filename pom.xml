@@ -69,7 +69,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- 编辑相关的工具类依赖 vvk start 2019.08.15-->
+            <!-- 编辑相关的工具类依赖 -->
             <!--fastjson-->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -116,7 +116,7 @@
                 <artifactId>dom4j</artifactId>
                 <version>${dom4j.version}</version>
             </dependency>
-            <!-- 编辑相关的工具类依赖 vvk end 2019.08.15-->
+            <!-- 编辑相关的工具类依赖 -->
 
             <!--spring cloud-->
             <dependency>
@@ -126,7 +126,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--spring cloud 服务间传递文件 start vvk 2019.07.30-->
+            <!--spring cloud 服务间传递文件 -->
             <dependency>
                 <groupId>io.github.openfeign.form</groupId>
                 <artifactId>feign-form</artifactId>
@@ -137,9 +137,9 @@
                 <artifactId>feign-form-spring</artifactId>
                 <version>${feign-form.version}</version>
             </dependency>
-            <!--spring cloud 服务间传递文件 end vvk 2019.07.30-->
+            <!--spring cloud 服务间传递文件 -->
 
-            <!-- 数据库连接依赖 w.b.l 2018.05.22 start-->
+            <!-- 数据库连接依赖 -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -150,15 +150,14 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid-spring-boot-starter.version}</version>
             </dependency>
-            <!-- mybatis-plus 依赖 vvk 2019.07.31 begin -->
+            <!-- mybatis-plus 依赖 -->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
-            <!-- mybatis-plus 依赖 vvk 2019.07.31 end -->
 
-            <!--  swagger2  引入 todo 考虑正式系统发布时，需要去除掉 w.b.l  start-->
+            <!-- swagger2 -->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
@@ -174,7 +173,6 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>2.7.0</version>
             </dependency>
-            <!--swagger end-->
 
             <!--增加shiro-->
             <dependency>
@@ -224,7 +222,7 @@
 
         </dependencies>
     </dependencyManagement>
-    
+
 
     <profiles>
         <profile>
